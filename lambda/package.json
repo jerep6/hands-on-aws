@@ -1,0 +1,27 @@
+{
+  "name": "hands-on-lambda",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Xebia",
+  "engines": {
+    "node": "4.3",
+    "npm": "2.15.x"
+  },
+  "private": true,
+  "scripts": {
+    "preinstall": "npm prune",
+    "postinstall": "node_modules/gulp/bin/gulp.js build:dev"
+  },
+  "dependencies": {
+    "aws-sdk": "2.7.12",
+    "bluebird": "3.4.6",
+    "lodash": "4.16.3",
+    "moment": "2.15.0",
+    "proxy-agent": "2.0.0",
+    "winston": "2.3.0",
+    "winston-logstash": "0.3.0"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1"
+  }
+}

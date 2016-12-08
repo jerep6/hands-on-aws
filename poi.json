@@ -1,0 +1,359 @@
+[
+  {
+    "uuid": "ca361629-bb7c-442f-9d57-f126b2e823a4",
+    "datasheet": {
+      "web": "http://www.booking.com/hotel/fr/masdelachapelle.html?aid=305168&lang=fr",
+      "name": "Mas de la Chapelle",
+      "type": "HOTEL",
+      "media": [
+        {
+          "url": "http://aff.bstatic.com/images/hotel/max500/148/14857332.jpg",
+          "mime": "image/jpeg",
+          "identifier": 1,
+          "representative": true
+        }
+      ],
+      "address": {
+        "postalCode": "13200",
+        "countryCode": "FRA",
+        "countryName": "France",
+        "localityName": "Arles",
+        "formatedCityLine": "Arles 13200",
+        "thoroughfareName": "Petite Route de Tarascon",
+        "formatedAddressLine": "Petite Route de Tarascon"
+      },
+      "general": [
+        "PARK",
+        "PET",
+        "PARK-FREE",
+        "SAFE",
+        "CULT",
+        "HEAT",
+        "LUGG",
+        "AIRCOND"
+      ],
+      "bathroom": [
+        "SPA",
+        "BATH-HOTTUB"
+      ],
+      "currency": "EUR",
+      "latitude": 43.722792579091525,
+      "nb_rooms": 22,
+      "provider": "ASSO_BOOKING",
+      "services": [
+        "BANQUET",
+        "NET-SERVICES",
+        "SHOP-GIFT",
+        "CYCLING-RENTAL",
+        "FAXCOPY",
+        "NET-WIFI",
+        "NET-WIFI-FREE"
+      ],
+      "longitude": 4.633727967739105,
+      "nb_review": 423,
+      "avg_rating": 3.9,
+      "src_poi_id": "223061",
+      "description": {},
+      "hotel_stars": "4",
+      "datasheet_id": "223061",
+      "technologies": [],
+      "pricemin_gm21": 0,
+      "food_amenities": [],
+      "room_amenities": [
+        "SAFE",
+        "AIRCOND",
+        "HEAT",
+        "WARDROBE",
+        "SAFE",
+        "AIRCOND",
+        "HEAT",
+        "WARDROBE",
+        "SAFE",
+        "AIRCOND",
+        "DESK",
+        "HEAT",
+        "WARDROBE",
+        "SAFE",
+        "AIRCOND",
+        "DESK",
+        "HEAT",
+        "WARDROBE",
+        "SAFE",
+        "AIRCOND",
+        "DESK",
+        "HEAT",
+        "WARDROBE",
+        "SAFE",
+        "FAXCOPY",
+        "AIRCOND",
+        "DESK",
+        "HEAT",
+        "WARDROBE",
+        "SAFE",
+        "AIRCOND",
+        "DESK",
+        "HEAT",
+        "WARDROBE",
+        "SAFE",
+        "AIRCOND",
+        "DESK",
+        "HEAT",
+        "WARDROBE"
+      ],
+      "latitude_access": 43.722792579091525,
+      "longitude_access": 4.633727967739105,
+      "accommodation_type": "HOTEL",
+      "original_surroundings": [
+        "GAR",
+        "TER",
+        "POOL-OUT-SEASON"
+      ]
+    }
+  },
+  {
+    "uuid": "0382e541-0b20-49b7-84b2-34e356b6e26b",
+    "datasheet": {
+      "web": "http://www.booking.com/hotel/us/motel-6-traverse-city.html?aid=305168&lang=fr",
+      "name": "Motel 6 Traverse City",
+      "type": "HOTEL",
+      "media": [
+        {
+          "url": "http://aff.bstatic.com/images/hotel/max500/170/17013811.jpg",
+          "mime": "image/jpeg",
+          "identifier": 1,
+          "representative": true
+        },
+        {
+          "url": "http://aff.bstatic.com/images/hotel/max500/170/17013811.jpg",
+          "mime": "image/jpeg",
+          "identifier": 2,
+          "representative": true
+        }
+      ],
+      "address": {
+        "postalCode": "49686",
+        "countryCode": "USA",
+        "countryName": "États-Unis",
+        "localityName": "Traverse City",
+        "formatedCityLine": "Traverse City 49686",
+        "thoroughfareName": "1582 US 31 North",
+        "formatedAddressLine": "1582 US 31 North"
+      },
+      "general": [
+        "PARK",
+        "PET",
+        "CHKIN-H24",
+        "DISABLEDHELP",
+        "FAMLYROOM",
+        "PARK-FREE",
+        "LIFT",
+        "HEAT",
+        "NOSMOK",
+        "AIRCOND"
+      ],
+      "bathroom": [
+        "BATH-HOTTUB"
+      ],
+      "currency": "USD",
+      "latitude": 44.745698830502064,
+      "nb_rooms": 45,
+      "provider": "ASSO_BOOKING",
+      "services": [
+        "LAUNDRY",
+        "NET-SERVICES",
+        "FAXCOPY",
+        "NET-WIFI",
+        "NET-WIFI-FREE"
+      ],
+      "longitude": -85.54455578327179,
+      "nb_review": 332,
+      "avg_rating": 3.85,
+      "src_poi_id": "25433",
+      "description": {
+        "en": "Located in scenic Northern Michigan, this Traverse City hotel is minutes from beautiful beaches and many area attractions, and features a number of thoughtful amenities and comfortable accommodations. \r\n\r\nThe Motel 6 Traverse City ideally places guests within walking distance to a variety of popular points of interest. Pirates Cove Adventure Park, swimming, shopping and much more are steps away from the hotel. \r\n\r\nThe pet-friendly Traverse City Motel 6 also features a refreshing indoor swimming pool, wireless internet access and on-site laundry facilities. \r\n",
+        "fr": "Situé dans la région pittoresque du nord du Michigan, le Motel 6 Traverse City ne se trouve qu'à quelques minutes de superbes plages et de nombreuses attractions de la région. Il vous propose divers équipements pratiques et des hébergements confortables.\n\nLe Motel 6 Traverse City bénéficie d'un emplacement de choix à quelques minutes de marche d'une variété de sites d'intérêt populaires. Profitez du parc d'aventures Pirates Cove, d'un lieu de baignade, de magasins et de bien d'autres choses à quelques pas de l'hôtel.\n\nAcceptant les animaux domestiques, le Traverse City Motel 6 comprend une piscine intérieure rafraîchissante, une connexion Wi-Fi et une blanchisserie sur place."
+      },
+      "hotel_stars": "2",
+      "datasheet_id": "25433",
+      "technologies": [],
+      "pricemin_gm21": 0,
+      "food_amenities": [],
+      "room_amenities": [
+        "AIRCOND",
+        "DESK",
+        "HEAT",
+        "FLOOR-WOOD"
+      ],
+      "latitude_access": 44.745698830502064,
+      "longitude_access": -85.54455578327179,
+      "accommodation_type": "HOTEL",
+      "original_surroundings": [
+        "POOL-IN",
+        "POOL-IN-YEAR"
+      ]
+    }
+  },
+  {
+    "uuid": "32c5746e-50b0-41da-b47b-25da6b2de486",
+    "datasheet": {
+      "web": "http://www.booking.com/hotel/fr/balldins-confort-rouen-louviers-val-de-reuil.html?aid=305168&lang=fr",
+      "name": "Hôtel balladins Rouen / Val de Reuil",
+      "type": "HOTEL",
+      "media": [
+        {
+          "url": "http://aff.bstatic.com/images/hotel/max500/702/7022856.jpg",
+          "mime": "image/jpeg",
+          "identifier": 1,
+          "representative": true
+        }
+      ],
+      "address": {
+        "postalCode": "27100",
+        "countryCode": "FRA",
+        "countryName": "France",
+        "localityName": "Val de Reuil",
+        "formatedCityLine": "Val de Reuil 27100",
+        "thoroughfareName": "ruelle du coin des saules",
+        "formatedAddressLine": "ruelle du coin des saules"
+      },
+      "general": [
+        "PARK",
+        "REST",
+        "PET",
+        "BAR",
+        "CHKIN-H24",
+        "DISABLEDHELP",
+        "PARK-FREE",
+        "AIRCOND"
+      ],
+      "bathroom": [],
+      "currency": "EUR",
+      "latitude": 49.24765205826793,
+      "nb_rooms": 80,
+      "provider": "ASSO_BOOKING",
+      "services": [
+        "BANQUET",
+        "BUSINESS",
+        "NET-SERVICES",
+        "FAXCOPY",
+        "NET-WIFI",
+        "NET-WIFI-FREE"
+      ],
+      "longitude": 1.1868251860141754,
+      "nb_review": 623,
+      "avg_rating": 3.95,
+      "src_poi_id": "215846",
+      "description": {
+        "de": "In der Nähe des Stadtzentrums von Louviers begrüßt Sie nur 15 Minuten von Rouen entfernt das Hotel Balladins, das sich ideal für einen Zwischenstopp eignet. Die Unterkunft bietet Ihnen eine 24-Stunden-Rezeption, kostenloses WLAN und kostenfreie Parkplätze. Der Golfplatz Vaudreuil liegt eine 5-minütige Autofahrt entfernt.\n\nDie komfortablen, klimatisierten Zimmer erwarten Sie mit einem TV und mit einem eigenen Bad.\n\nTäglich stärken Sie sich mit einem leckeren Frühstück. Kulinarisch verwöhnt Sie auch das Restaurant im Hotel, das an Wochentagen geöffnet hat.\n\nIm Hotel Balladins wohnen Sie in unmittelbarer Nähe der Autobahn und zugleich abseits des Lärms, sodass sich das Hotel perfekt eignet, wenn Sie beispielsweise nach Boulogne-sur-Mer weiterreisen möchten. Den Zoo La Serre Biotropica erreichen Sie vom Hotel aus nach 10 Fahrminuten.",
+        "en": "Hotel balladins is ideal for a stopover, close to the Louviers town centre and just 15 minutes from Rouen. It offers a 24-hour reception, free Wi-Fi and free parking. Vaudreuil Golf Course is a 5-minute drive away.\n\nThe rooms are comfortable and include air conditioning, TV and en suite facilities.\n\nFor maximum convenience, a tasty breakfast is served daily. A restaurant is also available onsite and is open on weekdays.\n\nLocated just off the motorway but away from the noise, the Hotel balladins is ideal for a short stay on your drive through to Boulogne sur Mer. La Serre Biotropica Zoo is a 10-minute drive from the hotel.",
+        "es": "El Hotel balladins es un lugar ideal para hacer una parada y queda cerca del centro de la ciudad de Louviers y a solo 15 minutos de Ruan. El hotel ofrece recepción 24 horas y conexión WiFi y aparcamiento gratuitos. El campo de golf de Vaudreuil se encuentra a 5 minutos en coche del establecimiento.\n\nLas habitaciones son cómodas y cuentan con aire acondicionado, TV y baño.\n\nSe sirve un desayuno delicioso a diario. También cuenta con un restaurante que abre de lunes a viernes.\n\nEl Hotel balladins se halla junto a la autopista, aunque no se ve afectado por los ruidos, y es perfecto para disfrutar de una estancia corta de camino a Boulogne-sur-Mer. El zoológico La Serre Biotropica se encuentra a 10 minutos en coche del hotel.",
+        "fr": "L'Hôtel balladins Rouen / Val de Reuil constitue une halte idéale, à proximité du centre-ville de Louviers et à seulement 15 minutes de Rouen. Doté d'une réception ouverte 24h/24, il met gratuitement à votre disposition un parking et une connexion Wi-Fi. Le parcours de golf de Vaudreuil est accessible en 5 minutes de route.\n\nLes chambres confortables sont dotées de la climatisation, d'une télévision et d'une salle de bains privative.\n\nPour un confort optimal, un délicieux petit-déjeuner est servi tous les jours. L'établissement comporte un restaurant ouvert en semaine.\n\nSitué juste à côté de l'autoroute mais à l'écart du bruit, l'Hôtel balladins est parfait pour vous accorder une courte pause sur votre route vers Boulogne-sur-Mer. La serre zoologique Biotropica se trouve à 10 minutes en voiture.",
+        "it": "Ideale per una sosta a breve distanza dal centro di Louviers, l'Hotel balladins sorge a soli 15 minuti da Rouen e a 5 minuti di macchina dal Club De Golf Vaudreuil. La struttura dispone di una reception aperta 24 ore su 24 e offre gratuitamente la connessione WiFi e il parcheggio.\n\nLe confortevoli sistemazioni sono complete di aria condizionata, TV e bagno interno.\n\nOgni giorno potrete comodamente gustare un'ottima colazione presso la struttura, dotata anche di un ristorante in loco aperto nei giorni feriali.\n\nSituato vicino all'autostrada ma lontano dal rumore, l'Hotel balladins si trova a 10 minuti di auto dallo zoo La Serre Biotropica, e rappresenta la base perfetta per un breve soggiorno nel tragitto verso Boulogne sur Mer.",
+        "nl": "Het Hôtel balladins is een ideale accommodatie voor een tussenstop, dicht bij het centrum van Louviers en op slechts 15 minuten rijden van Rouen. Het biedt een 24-uursreceptie, gratis WiFi en gratis parkeergelegenheid. De golfbaan van Le Vaudreuil ligt op 5 minuten rijden.\n\nDe comfortabele kamers beschikken elk over airconditioning, een tv en een eigen badkamer.\n\nIn het hotel wordt dagelijks een heerlijk ontbijt geserveerd. Er is ook een restaurant, dat doordeweeks geopend is.\n\nHet Hôtel balladins ligt vlak bij de snelweg maar weg van het lawaai, en is ideaal voor een kort verblijf onderweg naar Boulogne-sur-Mer. De dierentuin La Serre Biotropica ligt op 10 minuten rijden van het hotel.",
+        "pl": "Hotel Balladins położony jest niedaleko centrum miasta Louviers, zaledwie 15 minut od miejscowości Rouen. Obiekt oferuje czynną przez całą dobę recepcję, bezpłatny bezprzewodowy dostęp do Internetu oraz bezpłatny parking. Od pola golfowego Vaudreuil dzieli go 5 minut jazdy.\n\nDo dyspozycji Gości są komfortowe, klimatyzowane pokoje z łazienką i telewizorem.\n\nKażdego ranka w hotelu serwowane jest smaczne śniadanie. Restauracja otwarta jest tylko w dni powszednie.\n\nHotel Balladins usytuowany jest w pobliżu autostrady, a jednocześnie z dala od zgiełku. Obiekt ten jest doskonałym miejscem na przystanek w trakcie podróży do miasta Boulogne sur Mer. Ogród zoologiczny La Serre Biotropica oddalony jest o 10 minut jazdy od hotelu.",
+        "pt": "O Hotel Balladins é ideal para uma estadia, fica próximo do centro de Louviers e apenas a 15 minutos de Rouen. Dispõe de uma recepção 24 horas, acesso Wi-Fi e um estacionamento gratuito. O Campo de Golfe Vaudreuil encontra-se a 5 minutos de carro.\n\nOs quartos são confortáveis ​​e incluem ar condicionado, uma televisão e uma casa de banho privativa.\n\nPara a maior comodidade, poderá desfrutar de um saboroso pequeno-almoço diário. No local terá também à disposição um restaurante, aberto durante a semana.\n\nO Balladins Hotel localiza-se junto à auto-estrada, mas longe do barulho, e é ideal para uma estadia curta durante uma viagem de carro até Boulogne-sur-Mer. La Serre Biotropica Zoo (jardim zoológico) fica a 10 minutos de carro do hotel."
+      },
+      "hotel_stars": "3",
+      "datasheet_id": "215846",
+      "technologies": [],
+      "pricemin_gm21": 0,
+      "food_amenities": [],
+      "room_amenities": [
+        "WARDROBE",
+        "WARDROBE",
+        "AIRCOND",
+        "FLOOR-WOOD",
+        "WARDROBE",
+        "AIRCOND",
+        "FLOOR-WOOD",
+        "WARDROBE"
+      ],
+      "latitude_access": 49.24765205826793,
+      "longitude_access": 1.1868251860141754,
+      "accommodation_type": "HOTEL",
+      "original_surroundings": [
+        "GAR"
+      ]
+    }
+  },
+  {
+    "uuid": "48612954-8fb4-41cc-ad6a-790aaa5b53ec",
+    "datasheet": {
+      "web": "http://www.booking.com/hotel/gb/premier-inn-stockton-on-tees-west.html?aid=305168&lang=fr",
+      "name": "Premier Inn Stockton-On-Tees West",
+      "type": "HOTEL",
+      "media": [],
+      "address": {
+        "postalCode": "TS18 3RT",
+        "countryCode": "GBR",
+        "countryName": "Royaume-Uni",
+        "localityName": "Stockton-on-Tees",
+        "formatedCityLine": "Stockton-on-Tees TS18 3RT",
+        "thoroughfareName": "Yarm Road",
+        "formatedAddressLine": "Yarm Road"
+      },
+      "general": [
+        "PARK",
+        "REST",
+        "BAR",
+        "CHKIN-H24",
+        "NEWSP",
+        "DISABLEDHELP",
+        "FAMLYROOM",
+        "PARK-FREE",
+        "HEAT",
+        "NOSMOK"
+      ],
+      "bathroom": [],
+      "currency": "GBP",
+      "latitude": 54.54582147221116,
+      "nb_rooms": 68,
+      "provider": "ASSO_BOOKING",
+      "services": [
+        "NET-SERVICES",
+        "NET-WIFI",
+        "NET-WIFI-FREE"
+      ],
+      "longitude": -1.3329117000102997,
+      "nb_review": 113,
+      "avg_rating": 4.1,
+      "src_poi_id": "178522",
+      "description": {},
+      "hotel_stars": "3",
+      "datasheet_id": "178522",
+      "technologies": [],
+      "pricemin_gm21": 97,
+      "food_amenities": [],
+      "room_amenities": [
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT",
+        "DESK",
+        "HEAT"
+      ],
+      "latitude_access": 54.54582147221116,
+      "longitude_access": -1.3329117000102997,
+      "accommodation_type": "HOTEL",
+      "original_surroundings": []
+    }
+  }
+]
