@@ -1,0 +1,76 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+  "Description" : "Lambda to list all hotels IDs",
+  "Parameters": {
+    "GroupName": {
+      "Type": "String"
+    },
+    "LambdaS3Bucket": {
+      "Type": "String"
+    },
+    "LambdaS3Key": {
+      "Type": "String"
+    }
+  },
+
+  "Resources": {
+    "Lambda": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "Code": {
+          "S3Bucket" : { "Ref": "LambdaS3Bucket" },
+          "S3Key" : { "Ref": "LambdaS3Key" }
+        },
+        "Description": { "Fn::Join": ["", [ "Hands-on lambda for group ", {"Ref": "GroupName"} ]] },
+        "Handler": "tp-lambda.handler",
+        "Environment": {
+          "Variables" : { "OutputSQS": { "Fn::GetAtt": [ "SQSQueue", "Arn" ] } }
+        },
+        "FunctionName": { "Fn::Join": ["", [ "hands-on-", {"Ref": "GroupName"} ]] },
+        "MemorySize": "128",
+        "Role": { "Fn::GetAtt": [ "LambdaRole", "Arn" ] },
+        "Runtime": "nodejs4.3",
+        "Timeout": 20
+      }
+    },
+    "LambdaRole": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [{
+            "Effect": "Allow",
+            "Principal": {
+              "Service": ["lambda.amazonaws.com"]
+            },
+            "Action": ["sts:AssumeRole"]
+          }]
+        },
+        "Path": "/",
+        "ManagedPolicyArns": ["arn:aws:iam::aws:policy/AdministratorAccess"]
+      }
+    },
+    "SQSQueue" : {
+      "Type" : "AWS::SQS::Queue",
+      "Properties" : {
+        "QueueName" :  { "Fn::Join": ["", [ "hands-on-cfn-", {"Ref": "GroupName"} ]] },
+        "DelaySeconds": "0",
+        "MaximumMessageSize": "64000",
+        "MessageRetentionPeriod": "1209600",
+        "VisibilityTimeout": "1200",
+        "ReceiveMessageWaitTimeSeconds": "0"
+      }
+    }
+  },
+
+  "Outputs" : {
+    "Role": { "Description": "Lambda role", "Value": { "Ref": "LambdaRole" } },
+    "RoleArn": { "Description": "Arn for lambda role", "Value": { "Fn::GetAtt": [ "LambdaRole", "Arn" ] } },
+    "Lambda": { "Description": "Lambda reference", "Value": { "Ref": "Lambda"} },
+    "LambdaFile": { "Description": "Lambda ZIP file", "Value": { "Ref": "LambdaS3Key"} },
+    "LambdaArn": { "Description": "Arn for lambda", "Value": { "Fn::GetAtt": [ "Lambda", "Arn" ] } },
+    "SQSUrl": { "Description": "SQS Url", "Value": { "Ref": "SQSQueue" } },
+    "SQSArn": { "Description": "SQS Arn", "Value": { "Fn::GetAtt": [ "SQSQueue", "Arn" ] } },
+    "SQSQueueName": { "Description": "SQS QueueName", "Value": { "Fn::GetAtt": [ "SQSQueue", "QueueName" ] }}
+  }
+}

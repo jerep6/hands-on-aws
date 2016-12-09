@@ -8,5 +8,8 @@ module.exports = {
     name: `hands-on-${TP_GROUP_NAME}`,
     port: 10515,
     use: true
+  },
+  deploy: {
+    "bucket": "michelin-hands-on"
   }
 };
