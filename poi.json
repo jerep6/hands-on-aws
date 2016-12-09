@@ -54,10 +54,10 @@
       "avg_rating": 3.9,
       "src_poi_id": "223061",
       "description": {},
-      "hotel_stars": "4",
+      "hotel_stars": 4,
       "datasheet_id": "223061",
       "technologies": [],
-      "pricemin_gm21": 0,
+      "pricemin_gm21": 129,
       "food_amenities": [],
       "room_amenities": [
         "SAFE",
@@ -173,10 +173,10 @@
         "en": "Located in scenic Northern Michigan, this Traverse City hotel is minutes from beautiful beaches and many area attractions, and features a number of thoughtful amenities and comfortable accommodations. \r\n\r\nThe Motel 6 Traverse City ideally places guests within walking distance to a variety of popular points of interest. Pirates Cove Adventure Park, swimming, shopping and much more are steps away from the hotel. \r\n\r\nThe pet-friendly Traverse City Motel 6 also features a refreshing indoor swimming pool, wireless internet access and on-site laundry facilities. \r\n",
         "fr": "Situé dans la région pittoresque du nord du Michigan, le Motel 6 Traverse City ne se trouve qu'à quelques minutes de superbes plages et de nombreuses attractions de la région. Il vous propose divers équipements pratiques et des hébergements confortables.\n\nLe Motel 6 Traverse City bénéficie d'un emplacement de choix à quelques minutes de marche d'une variété de sites d'intérêt populaires. Profitez du parc d'aventures Pirates Cove, d'un lieu de baignade, de magasins et de bien d'autres choses à quelques pas de l'hôtel.\n\nAcceptant les animaux domestiques, le Traverse City Motel 6 comprend une piscine intérieure rafraîchissante, une connexion Wi-Fi et une blanchisserie sur place."
       },
-      "hotel_stars": "2",
+      "hotel_stars": 8,
       "datasheet_id": "25433",
       "technologies": [],
-      "pricemin_gm21": 0,
+      "pricemin_gm21": -32,
       "food_amenities": [],
       "room_amenities": [
         "AIRCOND",
@@ -253,10 +253,10 @@
         "pl": "Hotel Balladins położony jest niedaleko centrum miasta Louviers, zaledwie 15 minut od miejscowości Rouen. Obiekt oferuje czynną przez całą dobę recepcję, bezpłatny bezprzewodowy dostęp do Internetu oraz bezpłatny parking. Od pola golfowego Vaudreuil dzieli go 5 minut jazdy.\n\nDo dyspozycji Gości są komfortowe, klimatyzowane pokoje z łazienką i telewizorem.\n\nKażdego ranka w hotelu serwowane jest smaczne śniadanie. Restauracja otwarta jest tylko w dni powszednie.\n\nHotel Balladins usytuowany jest w pobliżu autostrady, a jednocześnie z dala od zgiełku. Obiekt ten jest doskonałym miejscem na przystanek w trakcie podróży do miasta Boulogne sur Mer. Ogród zoologiczny La Serre Biotropica oddalony jest o 10 minut jazdy od hotelu.",
         "pt": "O Hotel Balladins é ideal para uma estadia, fica próximo do centro de Louviers e apenas a 15 minutos de Rouen. Dispõe de uma recepção 24 horas, acesso Wi-Fi e um estacionamento gratuito. O Campo de Golfe Vaudreuil encontra-se a 5 minutos de carro.\n\nOs quartos são confortáveis ​​e incluem ar condicionado, uma televisão e uma casa de banho privativa.\n\nPara a maior comodidade, poderá desfrutar de um saboroso pequeno-almoço diário. No local terá também à disposição um restaurante, aberto durante a semana.\n\nO Balladins Hotel localiza-se junto à auto-estrada, mas longe do barulho, e é ideal para uma estadia curta durante uma viagem de carro até Boulogne-sur-Mer. La Serre Biotropica Zoo (jardim zoológico) fica a 10 minutos de carro do hotel."
       },
-      "hotel_stars": "3",
+      "hotel_stars": 3,
       "datasheet_id": "215846",
       "technologies": [],
-      "pricemin_gm21": 0,
+      "pricemin_gm21": 74,
       "food_amenities": [],
       "room_amenities": [
         "WARDROBE",
@@ -319,10 +319,10 @@
       "avg_rating": 4.1,
       "src_poi_id": "178522",
       "description": {},
-      "hotel_stars": "3",
+      "hotel_stars": 3,
       "datasheet_id": "178522",
       "technologies": [],
-      "pricemin_gm21": 97,
+      "pricemin_gm21": 0,
       "food_amenities": [],
       "room_amenities": [
         "DESK",

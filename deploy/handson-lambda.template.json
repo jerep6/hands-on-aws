@@ -24,7 +24,10 @@
         "Description": { "Fn::Join": ["", [ "Hands-on lambda for group ", {"Ref": "GroupName"} ]] },
         "Handler": "tp-lambda.handler",
         "Environment": {
-          "Variables" : { "OutputSQS": { "Ref": "SQSQueue" } }
+          "Variables" : {
+            "OutputSQS": { "Ref": "SQSQueue" },
+            "GroupName": { "Ref": "GroupName" }
+          }
         },
         "FunctionName": { "Fn::Join": ["", [ "hands-on-", {"Ref": "GroupName"} ]] },
         "MemorySize": "128",
