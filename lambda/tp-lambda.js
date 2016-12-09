@@ -8,8 +8,6 @@ const awsUtils = require('./common/aws.utils'),
   logger = require('./common/logger.utils'),
   config = require('./common/config');
 
-
-
 exports.handler = function(event, context) {
   const timer = new StopWatch();
   const logMetadata = Object.freeze({key: config.groupName, invokeid: context.invokeid || 'defaultid'});

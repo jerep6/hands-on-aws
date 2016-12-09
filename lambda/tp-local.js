@@ -4,7 +4,7 @@ const lambda = require('./tp-lambda'),
   logger = require('./common/logger.utils');
 
 
-process.env.outputSQS = `https://sqs.eu-central-1.amazonaws.com/596942977384/hands-on-${config.groupName}`;
+process.env.OutputSQS = `https://sqs.eu-central-1.amazonaws.com/596942977384/hands-on-${config.groupName}`;
 lambda.handler({
   "Bucket": "michelin-hands-on",
   "Key": `${config.groupName}/poi.json`
