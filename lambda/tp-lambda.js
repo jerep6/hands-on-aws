@@ -74,6 +74,9 @@ exports.handler = function(event, context) {
   /**
    * TODO
    *  Vérifier que l'attribut datasheet.address.countryCode soit égal à "FRA" (FRANCE)
+   *  Vérifier que l'attribut datasheet.hotel_stars soit compris entre 0 et 5
+   *  Vérifier que l'attribut datasheet.pricemin_gm21 soit strictement positif
+   *
    *  Ne retourner que les POI français et logger ceux qui ne passe pas la contrainte. (uuid et valeur country)
    *  Logger le nombre de POI passant le validateur et le temps d'exécution
    */
@@ -84,7 +87,9 @@ exports.handler = function(event, context) {
    *  - _.get pour lire sans se soucier des valeurs nulles
    *
    * LOGS à placer :
-   * - logger.warn(`Country is not valid`, _.assign({ids: _.get(elt, 'uuid'), country: _.get(elt, 'datasheet.address.countryCode')}, logMetadata));
+   * - logger.warn(`Country is not valid`, _.assign({ids: _.get(elt, 'uuid'), validationerror: {parameter: "countryCode", value: _.get(elt, 'datasheet.address.countryCode')}}, logMetadata));
+   * - logger.warn(`Stars are not valid`, _.assign({ids: _.get(elt, 'uuid'), validationerror: {parameter: "hotel_stars", value: _.get(elt, 'datasheet.hotel_stars')}}, logMetadata));
+   * - logger.warn(`Price is not valid`, _.assign({ids: _.get(elt, 'uuid'), validationerror: {parameter: "pricemin_gm21", value: _.get(elt, 'datasheet.pricemin_gm21')}}, logMetadata));
    */
   function validate(arrayOfLine) {
     const validPoi = [];
