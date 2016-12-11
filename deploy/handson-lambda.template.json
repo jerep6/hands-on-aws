@@ -5,12 +5,8 @@
     "GroupName": {
       "Type": "String"
     },
-    "LambdaS3Bucket": {
-      "Type": "String"
-    },
-    "LambdaS3Key": {
-      "Type": "String"
-    }
+    "LambdaS3Bucket": { "Type": "String" },
+    "LambdaS3Key": { "Type": "String" }
   },
 
   "Resources": {
@@ -29,11 +25,7 @@
             "GroupName": { "Ref": "GroupName" }
           }
         },
-        "FunctionName": { "Fn::Join": ["", [ "hands-on-", {"Ref": "GroupName"} ]] },
-        "MemorySize": "128",
-        "Role": { "Fn::GetAtt": [ "LambdaRole", "Arn" ] },
-        "Runtime": "nodejs4.3",
-        "Timeout": 20
+        "FunctionName": { "Fn::Join": ["", [ "hands-on-", {"Ref": "GroupName"} ]] }
       }
     },
     "LambdaRole": {
